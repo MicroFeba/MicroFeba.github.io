@@ -1,0 +1,280 @@
+.vector-icon2 {
+  position: relative;
+  width: 88.17px;
+  height: 33.81px;
+}
+.about-us2,
+.archive1,
+.submit3 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.archive1 {
+  width: 167px;
+  height: 53px;
+}
+.about-us2,
+.submit3 {
+  width: 165px;
+}
+.submit3 {
+  width: 166px;
+}
+.nav-bar1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.alll-nav-bar-item {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 5.01px;
+  flex-shrink: 0;
+}
+.alll-nav-bar1,
+.div26 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alll-nav-bar1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-31xl);
+}
+.div26 {
+  position: relative;
+  font-weight: 900;
+  width: 128px;
+  height: 75px;
+  flex-shrink: 0;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.intro-child {
+  position: relative;
+  border-radius: 50%;
+  width: 345px;
+  height: 345px;
+  object-fit: cover;
+}
+.intro,
+.racist-attack-in1 {
+  display: flex;
+  align-items: center;
+}
+.racist-attack-in1 {
+  position: relative;
+  font-weight: 900;
+  justify-content: center;
+  width: 616px;
+  height: 225px;
+  flex-shrink: 0;
+}
+.intro {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: var(--font-size-40xl);
+}
+.date-event {
+  position: relative;
+  font-weight: 300;
+  width: 109px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.author,
+.date-event,
+.div27 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.div27 {
+  position: relative;
+  font-weight: 300;
+  color: var(--color-black);
+  width: 123px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.author {
+  width: 66px;
+}
+.author,
+.date-submitted,
+.mario-rossi {
+  position: relative;
+  font-weight: 300;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.mario-rossi {
+  align-self: stretch;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  width: 116px;
+}
+.date-submitted {
+  width: 156px;
+}
+.article-info,
+.date-submitted,
+.div28 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.div28 {
+  position: relative;
+  font-weight: 300;
+  color: var(--color-black);
+  width: 102px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.article-info {
+  height: 18px;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  color: var(--color-gray);
+}
+.lorem-ipsum-dolor {
+  margin: 0;
+}
+.article-frame {
+  position: relative;
+  display: inline-block;
+  width: 705px;
+  height: 509px;
+  flex-shrink: 0;
+}
+.article {
+  align-self: stretch;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+.vector-icon3 {
+  position: relative;
+  width: 88.17px;
+  height: 33.81px;
+  z-index: 0;
+}
+.about-us3 {
+  cursor: pointer;
+  z-index: 1;
+}
+.about-us3,
+.email-us1,
+.instagram1,
+.linkedin1,
+.submit4 {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 75px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.submit4 {
+  cursor: pointer;
+  z-index: 2;
+}
+.email-us1,
+.instagram1,
+.linkedin1 {
+  z-index: 3;
+}
+.email-us1,
+.linkedin1 {
+  z-index: 4;
+}
+.email-us1 {
+  z-index: 5;
+}
+.news2 {
+  position: relative;
+  border-radius: var(--br-81xl);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 436px;
+  height: 31px;
+  z-index: 6;
+}
+.insert-email-to1,
+.news3,
+.submit5 {
+  position: absolute;
+  margin: 0 !important;
+}
+.news3 {
+  bottom: 5.78px;
+  left: calc(50% + 389.5px);
+  border-radius: var(--br-81xl);
+  background-color: var(--color-steelblue-100);
+  width: 124px;
+  height: 30px;
+  z-index: 7;
+}
+.insert-email-to1,
+.submit5 {
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.insert-email-to1 {
+  bottom: 13.28px;
+  left: calc(50% + 83.5px);
+  color: var(--color-gray);
+  width: 295px;
+  height: 22.5px;
+  z-index: 8;
+}
+.submit5 {
+  bottom: 5.78px;
+  left: calc(50% + 388.5px);
+  width: 125px;
+  height: 30px;
+  z-index: 9;
+}
+.bottompage1,
+.entries-page {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.bottompage1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.entries-page {
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-11xl) var(--padding-167xl);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-darker-grotesque);
+}

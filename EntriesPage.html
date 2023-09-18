@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./EntriesPage.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Darker Grotesque:wght@300;400;500;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="entries-page">
+      <div class="alll-nav-bar1">
+        <img class="vector-icon2" alt="" src="./public/vector2.svg" />
+
+        <div class="nav-bar1">
+          <div class="archive1" id="archiveText">archive</div>
+          <div class="about-us2" id="aboutUsText">about us</div>
+          <div class="submit3" id="submitText">submit</div>
+        </div>
+        <img class="alll-nav-bar-item" alt="" src="./public/line-11.svg" />
+      </div>
+      <div class="intro">
+        <div class="div26">2019</div>
+        <img class="intro-child" alt="" src="./public/ellipse-4@2x.png" />
+
+        <div class="racist-attack-in1">Racist Attack in Turin</div>
+      </div>
+      <div class="article-info">
+        <div class="date-event">Date Event</div>
+        <div class="div27">02/09/2019</div>
+        <div class="author">Author</div>
+        <div class="mario-rossi">Mario Rossi</div>
+        <div class="date-submitted">Date Submitted</div>
+        <div class="div28">03/11/2023</div>
+      </div>
+      <div class="article">
+        <div class="article-frame">
+          <p class="lorem-ipsum-dolor">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+            pulvinar gravida urna in venenatis. Proin ut dolor et risus
+            venenatis gravida. Fusce nibh erat, suscipit id finibus ac, feugiat
+            eu odio. Vivamus odio purus, tempor id varius et, lacinia ac libero.
+            Quisque bibendum diam nibh, sit amet ullamcorper leo elementum quis.
+            Nullam auctor fringilla mauris. Aenean dolor ante, euismod eget
+            facilisis eleifend, ultrices eget erat. Proin varius, dui quis
+            rutrum malesuada, neque quam congue dui, sit amet fermentum ante
+            lorem eu dolor. Fusce est risus, hendrerit vel facilisis ac, laoreet
+            a eros.
+          </p>
+          <p class="lorem-ipsum-dolor">
+            Curabitur eu aliquam urna, vitae volutpat nibh. Quisque aliquet elit
+            ac tellus lobortis ultrices. Suspendisse potenti. Nullam non nisl a
+            ligula tempor eleifend. Orci varius natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Orci varius natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Mauris non massa consectetur, tempus diam congue, ultrices urna.
+          </p>
+          <p class="lorem-ipsum-dolor">
+            Aenean nec ex eget nulla ullamcorper consectetur. Mauris ut rhoncus
+            magna. Vivamus pretium non felis a vehicula. Etiam molestie maximus
+            molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur vestibulum gravida tortor, eu convallis sem cursus eu.
+            Aliquam erat volutpat. Praesent nec sodales nisl, non viverra augue.
+            Mauris cursus vulputate orci vitae congue. Duis lobortis porta
+            congue. Sed sagittis mattis diam a consequat. Nullam dignissim,
+            mauris eu laoreet volutpat, sapien mauris placerat mi, ut feugiat
+            justo ligula vitae nunc. Nullam quis rutrum nisi. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Duis quis ligula consequat,
+            fringilla tellus sit amet, dapibus ipsum.
+          </p>
+          <p class="lorem-ipsum-dolor">
+            Ut eu auctor nisl. Integer ullamcorper vehicula odio, a vehicula dui
+            iaculis eget. Nulla eleifend quis neque in aliquam. In pretium mi
+            iaculis eros tincidunt, vel placerat velit venenatis. Aenean ac
+            mauris ornare lorem varius maximus sit amet ac arcu. Duis ut mauris
+            viverra, cursus augue pellentesque, tincidunt sapien. Aliquam et
+            ipsum et elit fermentum porta a quis odio. Duis blandit interdum
+            nibh, et porta ligula eleifend sed. In hac habitasse platea
+            dictumst.
+          </p>
+          <p class="lorem-ipsum-dolor">
+            Sed congue erat id molestie sollicitudin. Vestibulum sodales
+            ultricies feugiat. Nullam vel euismod tellus, sed consectetur urna.
+            Quisque id pulvinar augue, sit amet auctor nisl. Morbi tortor nisl,
+            rhoncus aliquam augue ut, finibus dignissim felis. Ut libero lorem,
+            dictum pretium ullamcorper eu, rutrum ac lectus. Nunc id finibus
+            augue, nec dapibus ante. Vivamus sed metus sit amet magna varius
+            varius.
+          </p>
+        </div>
+      </div>
+      <div class="bottompage1">
+        <img class="vector-icon3" alt="" src="./public/vector3.svg" />
+
+        <div class="about-us3" id="aboutUsText1">about us</div>
+        <div class="submit4" id="submitText1">submit</div>
+        <div class="instagram1">Instagram</div>
+        <div class="linkedin1">LinkedIn</div>
+        <div class="email-us1">email us</div>
+        <div class="news2"></div>
+        <div class="news3"></div>
+        <div class="insert-email-to1">
+          insert email to subscribe to our newsletter
+        </div>
+        <div class="submit5">submit</div>
+      </div>
+    </div>
+
+    <script>
+      var archiveText = document.getElementById("archiveText");
+      if (archiveText) {
+        archiveText.addEventListener("click", function (e) {
+          window.location.href = "./ArchivePage.html";
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href = "./AboutUs.html";
+        });
+      }
+      
+      var submitText = document.getElementById("submitText");
+      if (submitText) {
+        submitText.addEventListener("click", function (e) {
+          window.location.href = "./Submit.html";
+        });
+      }
+      
+      var aboutUsText1 = document.getElementById("aboutUsText1");
+      if (aboutUsText1) {
+        aboutUsText1.addEventListener("click", function (e) {
+          window.location.href = "./AboutUs.html";
+        });
+      }
+      
+      var submitText1 = document.getElementById("submitText1");
+      if (submitText1) {
+        submitText1.addEventListener("click", function (e) {
+          window.location.href = "./Submit.html";
+        });
+      }
+      </script>
+  </body>
+</html>
