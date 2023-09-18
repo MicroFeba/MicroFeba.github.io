@@ -20,12 +20,14 @@ body {
   --color-steelblue-100: #208aae;
 
   /* Gaps */
+  --gap-3xl: 22px;
   --gap-9xs: 4px;
   --gap-xl: 20px;
 
   /* Paddings */
   --padding-11xl: 30px;
   --padding-167xl: 186px;
+  --padding-32xl: 51px;
 
   /* Border radiuses */
   --br-81xl: 100px;

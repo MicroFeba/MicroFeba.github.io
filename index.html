@@ -62,7 +62,9 @@
               src="./public/ellipse-2@2x.png"
             />
 
-            <div class="racist-attack-in">Racist attack in Turin</div>
+            <div class="racist-attack-in" id="racistAttackIn">
+              Racist attack in Turin
+            </div>
           </div>
           <div class="images-2020">
             <img
@@ -71,7 +73,7 @@
               src="./public/ellipse-21@2x.png"
             />
 
-            <div class="racist-attack-in">Riots in Rome</div>
+            <div class="riots-in-rome">Riots in Rome</div>
             <img
               class="images-2020-item"
               alt=""
@@ -87,7 +89,7 @@
         <img class="vector-icon1" alt="" src="./public/vector1.svg" />
 
         <div class="about-us1" id="aboutUsText1">about us</div>
-        <div class="submit1">submit</div>
+        <div class="submit1" id="submitText1">submit</div>
         <div class="instagram">Instagram</div>
         <div class="linkedin">LinkedIn</div>
         <div class="email-us">email us</div>
@@ -107,20 +109,34 @@
           window.location.href = "./AboutUs.html";
         });
       }
-      
+
       var submitText = document.getElementById("submitText");
       if (submitText) {
         submitText.addEventListener("click", function (e) {
           window.location.href = "./Submit.html";
         });
       }
-      
+
+      var racistAttackIn = document.getElementById("racistAttackIn");
+      if (racistAttackIn) {
+        racistAttackIn.addEventListener("click", function (e) {
+          window.location.href = "./EntriesPage.html";
+        });
+      }
+
       var aboutUsText1 = document.getElementById("aboutUsText1");
       if (aboutUsText1) {
         aboutUsText1.addEventListener("click", function (e) {
           window.location.href = "./AboutUs.html";
         });
       }
-      </script>
+
+      var submitText1 = document.getElementById("submitText1");
+      if (submitText1) {
+        submitText1.addEventListener("click", function (e) {
+          window.location.href = "./Submit.html";
+        });
+      }
+    </script>
   </body>
 </html>

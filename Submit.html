@@ -12,19 +12,16 @@
     />
   </head>
   <body>
-    <div class="submit9">
+    <form class="submit9">
       <div class="alll-nav-bar3">
         <img class="vector-icon6" alt="" src="./public/vector2.svg" />
 
-        <div class="frame">
-          <img class="frame-child" alt="" src="./public/line-12.svg" />
-
-          <div class="nav-bar3">
-            <div class="archive4" id="archiveText">archive</div>
-            <div class="about-us9">about us</div>
-            <div class="submit10" id="submitText">submit</div>
-          </div>
+        <div class="nav-bar3">
+          <div class="archive4">archive</div>
+          <div class="about-us9" id="aboutUsText">about us</div>
+          <div class="submit10" id="submitText">submit</div>
         </div>
+        <img class="line-icon" alt="" src="./public/line-12.svg" />
       </div>
       <div class="submission-guide">
         <div class="sumbission-guide-wrapper">
@@ -60,64 +57,50 @@
         </div>
       </div>
       <div class="bottompage3">
-        <div class="frame1">
-          <img class="frame-icon" alt="" src="./public/frame.svg" />
+        <img class="vector-icon7" alt="" src="./public/vector4.svg" />
 
-          <div class="frame2">
-            <div class="about-us10">about us</div>
-          </div>
+        <div class="about-us10" id="aboutUsText1">about us</div>
+        <div class="submit11" id="submitText1">submit</div>
+        <div class="instagram3">Instagram</div>
+        <div class="linkedin3">LinkedIn</div>
+        <div class="email-us3">email us</div>
+        <div class="news6"></div>
+        <div class="news7"></div>
+        <div class="insert-email-to3">
+          insert email to subscribe to our newsletter
         </div>
-        <div class="frame3">
-          <div class="frame4">
-            <div class="submit11" id="submitText1">submit</div>
-          </div>
-          <div class="frame5">
-            <div class="about-us10">Instagram</div>
-          </div>
-          <div class="frame6">
-            <div class="about-us10">LinkedIn</div>
-          </div>
-        </div>
-        <div class="frame7">
-          <div class="frame8">
-            <div class="frame9">
-              <div class="insert-email-to3">
-                insert email to subscribe to our newsletter
-              </div>
-              <div class="frame10">
-                <div class="news6"></div>
-                <div class="submit12">submit</div>
-              </div>
-            </div>
-          </div>
-          <div class="frame11">
-            <div class="about-us10">email us</div>
-          </div>
-        </div>
+        <div class="submit12">submit</div>
       </div>
-    </div>
+    </form>
 
     <script>
-      var archiveText = document.getElementById("archiveText");
-      if (archiveText) {
-        archiveText.addEventListener("click", function (e) {
-          window.location.href = "./ArchivePage.html";
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href = "./AboutUs.html";
         });
       }
-      
+
       var submitText = document.getElementById("submitText");
       if (submitText) {
         submitText.addEventListener("click", function (e) {
           window.location.href = "./Submit.html";
         });
       }
-      
+
+      var aboutUsText1 = document.getElementById("aboutUsText1");
+      if (aboutUsText1) {
+        aboutUsText1.addEventListener("click", function (e) {
+          window.location.href = "./AboutUs.html";
+        });
+      }
+
       var submitText1 = document.getElementById("submitText1");
       if (submitText1) {
         submitText1.addEventListener("click", function (e) {
           window.location.href = "./Submit.html";
         });
       }
-      </script>
+    </script>
   </body>
 </html>
