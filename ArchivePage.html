@@ -3,28 +3,138 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>aRa</title>
 
     <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./ArchivePage.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Darker Grotesque:wght@300;400;500;900&display=swap"
     />
   </head>
   <body>
-    <button class="vector-parent" autofocus="{true}">
-      <img class="vector-icon2" alt="" src="./public/vector2.svg" />
+    <div class="archive-page">
+      <div class="alll-nav-bar">
+        <img class="vector-icon" alt="" src="./public/vector.svg" />
 
-      <div class="go-to-the" id="goToThe">go to the archive</div>
-    </button>
+        <div class="nav-bar">
+          <div class="archive">archive</div>
+          <div class="about-us" id="aboutUsText">about us</div>
+          <div class="submit" id="submitText">submit</div>
+        </div>
+        <img class="alll-nav-bar-child" alt="" src="./public/line-1.svg" />
+      </div>
+      <div class="timeline">
+        <div class="images-2019-parent">
+          <div class="images-2019">
+            <img
+              class="images-2019-child"
+              alt=""
+              src="./public/ellipse-2@2x.png"
+            />
+
+            <div class="racist-attack-in" id="racistAttackIn">
+              Racist attack in Turin
+            </div>
+          </div>
+          <div class="images-2020">
+            <img
+              class="images-2020-child"
+              alt=""
+              src="./public/ellipse-21@2x.png"
+            />
+
+            <div class="riots-in-rome">Riots in Rome</div>
+            <img
+              class="images-2020-item"
+              alt=""
+              src="./public/ellipse-3@2x.png"
+            />
+
+            <div class="moroccan-dream">Moroccan Dream</div>
+          </div>
+          <div class="parent">
+            <div class="div">1999</div>
+            <div class="div">2000</div>
+            <div class="div">2001</div>
+            <div class="div">2002</div>
+            <div class="div">2003</div>
+            <div class="div">2004</div>
+            <div class="div">2005</div>
+            <div class="div">2006</div>
+            <div class="div">2007</div>
+            <div class="div">2008</div>
+            <div class="div">2009</div>
+            <div class="div">2010</div>
+            <div class="div">2011</div>
+            <div class="div">2012</div>
+            <div class="div">2013</div>
+            <div class="div">2014</div>
+            <div class="div">2015</div>
+            <div class="div">2016</div>
+            <div class="div">2017</div>
+            <div class="div">2018</div>
+            <div class="div">2019</div>
+            <div class="div">2020</div>
+            <div class="div">2021</div>
+            <div class="div">2022</div>
+            <div class="div">2023</div>
+            <div class="div">2024</div>
+          </div>
+        </div>
+      </div>
+      <div class="bottompage">
+        <img class="vector-icon1" alt="" src="./public/vector1.svg" />
+
+        <div class="about-us1" id="aboutUsText1">about us</div>
+        <div class="submit1" id="submitText1">submit</div>
+        <div class="instagram">Instagram</div>
+        <div class="linkedin">LinkedIn</div>
+        <div class="email-us">email us</div>
+        <div class="news"></div>
+        <div class="news1"></div>
+        <div class="insert-email-to">
+          insert email to subscribe to our newsletter
+        </div>
+        <div class="submit2">submit</div>
+      </div>
+    </div>
 
     <script>
-      var goToThe = document.getElementById("goToThe");
-      if (goToThe) {
-        goToThe.addEventListener("click", function (e) {
-          window.location.href = "./ArchivePage.html";
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href = "./AboutUs.html";
         });
       }
-    </script>
+      
+      var submitText = document.getElementById("submitText");
+      if (submitText) {
+        submitText.addEventListener("click", function (e) {
+          window.location.href = "./Submit.html";
+        });
+      }
+      
+      var racistAttackIn = document.getElementById("racistAttackIn");
+      if (racistAttackIn) {
+        racistAttackIn.addEventListener("click", function (e) {
+          window.location.href = "./EntriesPage.html";
+        });
+      }
+      
+      var aboutUsText1 = document.getElementById("aboutUsText1");
+      if (aboutUsText1) {
+        aboutUsText1.addEventListener("click", function (e) {
+          window.location.href = "./AboutUs.html";
+        });
+      }
+      
+      var submitText1 = document.getElementById("submitText1");
+      if (submitText1) {
+        submitText1.addEventListener("click", function (e) {
+          window.location.href = "./Submit.html";
+        });
+      }
+      </script>
   </body>
 </html>

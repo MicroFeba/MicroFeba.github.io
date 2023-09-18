@@ -1,39 +1,288 @@
-.vector-icon2 {
-  position: absolute;
-  margin: 0 !important;
-  top: calc(50% - 50.5px);
-  left: calc(50% - 44px);
+.vector-icon {
+  position: relative;
   width: 88.17px;
   height: 33.81px;
-  z-index: 0;
 }
-.go-to-the {
-  align-self: stretch;
+.archive {
   position: absolute;
-  margin: 0 !important;
-  top: calc(50% - 16.5px);
-  left: calc(50% - 155px);
-  font-size: var(--font-size-31xl);
+  top: 0px;
+  left: 0px;
   font-weight: 500;
-  font-family: var(--font-darker-grotesque);
-  color: var(--color-black);
-  text-align: center;
-  cursor: pointer;
-  z-index: 1;
+  display: inline-block;
+  width: 167px;
+  height: 53px;
 }
-.vector-parent {
+.about-us {
+  position: absolute;
+  top: 0px;
+  left: 452px;
+  font-weight: 500;
+  display: inline-block;
+  width: 165px;
   cursor: pointer;
-  border: none;
-  padding: 0;
-  background-color: transparent;
+}
+.submit {
+  position: absolute;
+  top: 0px;
+  left: 902px;
+  font-weight: 500;
+  display: inline-block;
+  width: 166px;
+  cursor: pointer;
+}
+.nav-bar {
+  align-self: stretch;
   position: relative;
-  background: linear-gradient(#d9d9d9, #d9d9d9), #fff;
-  width: 100%;
-  height: 741px;
+  height: 68px;
   overflow: hidden;
+  flex-shrink: 0;
+}
+.alll-nav-bar-child {
+  position: relative;
+  width: 1070px;
+  height: 5.01px;
+}
+.alll-nav-bar {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: var(--gap-9xs);
+}
+.images-2019-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.racist-attack-in {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.images-2019 {
+  position: absolute;
+  top: 100px;
+  left: 367.25px;
+  width: 100px;
+  height: 100px;
+}
+.images-2020-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.riots-in-rome {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+.images-2020-item {
+  position: absolute;
+  top: 114px;
+  left: 0px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.moroccan-dream {
+  position: absolute;
+  top: 114px;
+  left: 0px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+.images-2020 {
+  position: absolute;
+  top: 100px;
+  left: 533.25px;
+  width: 100px;
+  height: 214px;
+}
+.div {
+  position: relative;
+  font-weight: 900;
+}
+.parent {
+  position: absolute;
+  top: 20px;
+  left: -2953px;
+  width: 4269px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-40xl);
+  color: var(--color-black);
+}
+.images-2019-parent {
+  position: relative;
+  width: 870.49px;
+  height: 614px;
+  overflow-x: auto;
+  flex-shrink: 0;
+}
+.timeline {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 83px;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gainsboro);
+}
+.vector-icon1 {
+  position: relative;
+  width: 88.17px;
+  height: 33.81px;
+  z-index: 0;
+}
+.about-us1 {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 75px;
+  height: 36px;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.submit1 {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 75px;
+  height: 36px;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.instagram {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 75px;
+  height: 36px;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.linkedin {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 75px;
+  height: 36px;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.email-us {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 75px;
+  height: 36px;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.news {
+  position: relative;
+  border-radius: var(--br-81xl);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 436px;
+  height: 31px;
+  z-index: 6;
+}
+.news1 {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 14.78px);
+  left: calc(50% + 389.5px);
+  border-radius: var(--br-81xl);
+  background-color: var(--color-steelblue-100);
+  width: 124px;
+  height: 30px;
+  z-index: 7;
+}
+.insert-email-to {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 14.78px);
+  left: calc(50% + 83.5px);
+  font-weight: 300;
+  color: var(--color-gray);
+  display: inline-block;
+  width: 295px;
+  height: 22.5px;
+  flex-shrink: 0;
+  z-index: 8;
+}
+.submit2 {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 14.78px);
+  left: calc(50% + 388.5px);
+  font-weight: 300;
+  display: inline-block;
+  width: 125px;
+  height: 30px;
+  flex-shrink: 0;
+  z-index: 9;
+}
+.bottompage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-xl);
+}
+.archive-page {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xl) var(--padding-167xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-darker-grotesque);
 }
