@@ -9,8 +9,8 @@ body {
 
   /* font sizes */
   --font-size-xl: 20px;
-  --font-size-6xl: 25px;
   --font-size-40xl: 59px;
+  --font-size-6xl: 25px;
   --font-size-31xl: 50px;
 
   /* Colors */
@@ -27,7 +27,6 @@ body {
   /* Paddings */
   --padding-11xl: 30px;
   --padding-167xl: 186px;
-  --padding-32xl: 51px;
 
   /* Border radiuses */
   --br-81xl: 100px;

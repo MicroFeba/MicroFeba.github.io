@@ -15,6 +15,7 @@
   display: inline-block;
   width: 167px;
   height: 53px;
+  cursor: pointer;
 }
 .about-us9 {
   position: absolute;
@@ -99,7 +100,7 @@
   width: 610px;
   height: 444px;
 }
-.lorem-ipsum-dolor-sit-amet-co-container {
+.lorem-ipsum-dolor-sit-amet-co-wrapper {
   position: absolute;
   top: -0.23px;
   left: 90px;
@@ -197,7 +198,7 @@
   position: absolute;
   margin: 0 !important;
   top: calc(50% - 14.78px);
-  left: calc(50% + 389.58px);
+  left: calc(50% + 390.08px);
   border-radius: var(--br-81xl);
   background-color: var(--color-steelblue-100);
   width: 124px;
@@ -208,7 +209,7 @@
   position: absolute;
   margin: 0 !important;
   top: calc(50% - 14.78px);
-  left: calc(50% + 83.58px);
+  left: calc(50% + 84.08px);
   font-size: var(--font-size-xl);
   font-weight: 300;
   font-family: var(--font-darker-grotesque);
@@ -224,7 +225,7 @@
   position: absolute;
   margin: 0 !important;
   top: calc(50% - 14.78px);
-  left: calc(50% + 388.58px);
+  left: calc(50% + 389.08px);
   font-size: var(--font-size-xl);
   font-weight: 300;
   font-family: var(--font-darker-grotesque);

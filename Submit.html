@@ -14,20 +14,20 @@
   <body>
     <form class="submit9">
       <div class="alll-nav-bar3">
-        <img class="vector-icon6" alt="" src="./public/vector2.svg" />
+        <img class="vector-icon6" alt="" src="./public/vector5.svg" />
 
         <div class="nav-bar3">
-          <div class="archive4">archive</div>
+          <div class="archive4" id="archiveText">archive</div>
           <div class="about-us9" id="aboutUsText">about us</div>
           <div class="submit10" id="submitText">submit</div>
         </div>
-        <img class="line-icon" alt="" src="./public/line-12.svg" />
+        <img class="line-icon" alt="" src="./public/line-11.svg" />
       </div>
       <div class="submission-guide">
         <div class="sumbission-guide-wrapper">
           <div class="sumbission-guide">sumbission guide</div>
         </div>
-        <div class="lorem-ipsum-dolor-sit-amet-co-container">
+        <div class="lorem-ipsum-dolor-sit-amet-co-wrapper">
           <div class="lorem-ipsum-dolor-container1">
             <p class="blank-line">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="bottompage3">
-        <img class="vector-icon7" alt="" src="./public/vector4.svg" />
+        <img class="vector-icon7" alt="" src="./public/vector6.svg" />
 
         <div class="about-us10" id="aboutUsText1">about us</div>
         <div class="submit11" id="submitText1">submit</div>
@@ -74,33 +74,40 @@
     </form>
 
     <script>
+      var archiveText = document.getElementById("archiveText");
+      if (archiveText) {
+        archiveText.addEventListener("click", function (e) {
+          window.location.href = "./ArchivePage.html";
+        });
+      }
+      
       var aboutUsText = document.getElementById("aboutUsText");
       if (aboutUsText) {
         aboutUsText.addEventListener("click", function (e) {
           window.location.href = "./AboutUs.html";
         });
       }
-
+      
       var submitText = document.getElementById("submitText");
       if (submitText) {
         submitText.addEventListener("click", function (e) {
           window.location.href = "./Submit.html";
         });
       }
-
+      
       var aboutUsText1 = document.getElementById("aboutUsText1");
       if (aboutUsText1) {
         aboutUsText1.addEventListener("click", function (e) {
           window.location.href = "./AboutUs.html";
         });
       }
-
+      
       var submitText1 = document.getElementById("submitText1");
       if (submitText1) {
         submitText1.addEventListener("click", function (e) {
           window.location.href = "./Submit.html";
         });
       }
-    </script>
+      </script>
   </body>
 </html>

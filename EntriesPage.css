@@ -32,9 +32,11 @@
 }
 .nav-bar1 {
   align-self: stretch;
-  flex: 1;
   position: relative;
+  height: 68px;
   overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
 }
 .alll-nav-bar-item {
   position: relative;
@@ -42,8 +44,6 @@
   height: 5.01px;
 }
 .alll-nav-bar1 {
-  align-self: stretch;
-  height: 109.82px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,7 +178,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   text-align: left;
 }
 .vector-icon3 {
