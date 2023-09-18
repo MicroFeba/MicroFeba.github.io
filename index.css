@@ -134,12 +134,12 @@
   position: absolute;
   top: 20px;
   left: -2953px;
+  width: 4269px;
   overflow-x: auto;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
-  gap: 37px;
+  justify-content: space-between;
   text-align: left;
   font-size: var(--font-size-40xl);
   color: var(--color-black);

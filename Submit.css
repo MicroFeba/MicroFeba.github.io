@@ -1,4 +1,4 @@
-.vector-icon6 {
+.vector-icon7 {
   position: relative;
   width: 88.17px;
   height: 33.81px;
@@ -112,7 +112,7 @@
   width: 700px;
   height: 444px;
 }
-.vector-icon7 {
+.vector-icon8 {
   position: relative;
   width: 88.17px;
   height: 33.81px;
@@ -198,7 +198,7 @@
   position: absolute;
   margin: 0 !important;
   top: calc(50% - 14.78px);
-  left: calc(50% + 390.08px);
+  left: calc(50% + 389.5px);
   border-radius: var(--br-81xl);
   background-color: var(--color-steelblue-100);
   width: 124px;
@@ -209,7 +209,7 @@
   position: absolute;
   margin: 0 !important;
   top: calc(50% - 14.78px);
-  left: calc(50% + 84.08px);
+  left: calc(50% + 83.5px);
   font-size: var(--font-size-xl);
   font-weight: 300;
   font-family: var(--font-darker-grotesque);
@@ -225,7 +225,7 @@
   position: absolute;
   margin: 0 !important;
   top: calc(50% - 14.78px);
-  left: calc(50% + 389.08px);
+  left: calc(50% + 388.5px);
   font-size: var(--font-size-xl);
   font-weight: 300;
   font-family: var(--font-darker-grotesque);
@@ -238,7 +238,6 @@
   z-index: 9;
 }
 .bottompage3 {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;

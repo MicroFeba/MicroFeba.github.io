@@ -1,4 +1,4 @@
-.vector-icon2 {
+.vector-icon3 {
   position: relative;
   width: 88.17px;
   height: 33.81px;
@@ -181,7 +181,7 @@
   justify-content: center;
   text-align: left;
 }
-.vector-icon3 {
+.vector-icon4 {
   position: relative;
   width: 88.17px;
   height: 33.81px;
@@ -247,7 +247,7 @@
   position: absolute;
   margin: 0 !important;
   top: calc(50% - 14.78px);
-  left: calc(50% + 389.58px);
+  left: calc(50% + 389.5px);
   border-radius: var(--br-81xl);
   background-color: var(--color-steelblue-100);
   width: 124px;
@@ -258,7 +258,7 @@
   position: absolute;
   margin: 0 !important;
   top: calc(50% - 14.78px);
-  left: calc(50% + 83.58px);
+  left: calc(50% + 83.5px);
   font-weight: 300;
   color: var(--color-gray);
   display: inline-block;
@@ -271,7 +271,7 @@
   position: absolute;
   margin: 0 !important;
   top: calc(50% - 14.78px);
-  left: calc(50% + 388.58px);
+  left: calc(50% + 388.5px);
   font-weight: 300;
   display: inline-block;
   width: 125px;
@@ -280,7 +280,6 @@
   z-index: 9;
 }
 .bottompage1 {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;

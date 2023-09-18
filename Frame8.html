@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Frame8.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Darker Grotesque:wght@300;400;500;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="rectangle-parent">
+      <div class="frame-child"></div>
+      <img class="vector-icon2" alt="" src="./public/vector2.svg" />
+
+      <div class="go-to-the" id="goToThe">go to the archive</div>
+    </div>
+
+    <script>
+      var goToThe = document.getElementById("goToThe");
+      if (goToThe) {
+        goToThe.addEventListener("click", function (e) {
+          window.location.href = "./ArchivePage.html";
+        });
+      }
+      </script>
+  </body>
+</html>

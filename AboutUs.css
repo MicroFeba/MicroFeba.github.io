@@ -1,4 +1,4 @@
-.vector-icon4 {
+.vector-icon5 {
   position: relative;
   width: 88.17px;
   height: 33.81px;
@@ -44,6 +44,7 @@
   height: 5.01px;
 }
 .alll-nav-bar2 {
+  height: 109.82px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,16 +84,16 @@
 .lorem-ipsum-dolor-container {
   position: absolute;
   top: 0px;
-  left: 90px;
+  left: 0px;
   display: inline-block;
   width: 615px;
   height: 201px;
 }
 .frame {
   position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 705px;
+  top: 0.18px;
+  left: 90.5px;
+  width: 615px;
   height: 201px;
   overflow: hidden;
 }
@@ -116,7 +117,7 @@
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.vector-icon5 {
+.vector-icon6 {
   position: relative;
   width: 88.17px;
   height: 33.81px;
